@@ -154,6 +154,16 @@ Every ticket is classified into the following structured schema:
 | `escalate_to_human` | bool | Whether a human agent must take over |
 | `confidence` | float (0–1) | Model's self-reported confidence in the category classification |
 
+## Demo
+
+**Example ticket selection screen:**
+
+![Chatbot ticket examples](Chatbot-1.png)
+
+**Example triage result — billing issue, escalated to a human:**
+
+![Chatbot triage output](Chatbot-2.png)
+
 ## Notes & Limitations
 
 - This is a learning/demo project. The Gradio UI shows internal triage fields alongside the customer reply for transparency during testing; in a real deployment, only `customer_reply` would be shown to the customer, while the rest would go to an internal agent dashboard.
