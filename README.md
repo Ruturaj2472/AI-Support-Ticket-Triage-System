@@ -162,7 +162,7 @@ Every ticket is classified into the following structured schema:
 
 **Example triage result — billing issue, escalated to a human:**
 
-![Chatbot triage output](Chatbot-2.png)
+![Chatbot triage output](chatbot-2.png)
 
 ## Notes & Limitations
 
